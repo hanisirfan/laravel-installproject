@@ -20,25 +20,25 @@ This is a simple Composer script which listed basic commands that is used to set
 
 1. Insert the following event inside `scripts` property in `composer.json` file.
       ```json
-        "install-project": [
-            "npm install && npm run prod",
-            "composer install",
-            "@php artisan key:generate",
-            "@php artisan migrate",
-            "@php artisan key:generate"
-        ]
+      "install-project": [
+          "npm install && npm run prod",
+          "composer install",
+          "@php artisan key:generate",
+          "@php artisan migrate",
+          "@php artisan key:generate"
+      ]
       ```
       Example:
       ```json
-        "scripts": {
-          "install-project": [
-            "npm install && npm run prod",
-            "composer install",
-            "@php artisan key:generate",
-            "@php artisan migrate",
-            "@php artisan key:generate"
-          ],
-        },
+      "scripts": {
+        "install-project": [
+          "npm install && npm run prod",
+          "composer install",
+          "@php artisan key:generate",
+          "@php artisan migrate",
+          "@php artisan key:generate"
+        ],
+      },
       ```
 2. Run `composer install-project` inside your terminal.
 3. Done!
