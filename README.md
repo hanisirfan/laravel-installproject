@@ -40,7 +40,7 @@ This is a simple Composer script which listed basic commands that is used to set
           ],
         },
       ```
-2. Run `composer run-script install-project` inside your terminal.
+2. Run `composer install-project` inside your terminal.
 3. Done!
         
 ### FAQ
