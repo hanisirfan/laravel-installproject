@@ -23,7 +23,7 @@ This is a simple Composer script which listed basic commands that is used to set
       "install-project": [
           "npm install && npm run prod",
           "composer install",
-          "@php artisan key:generate",
+          "@php artisan storage:link",
           "@php artisan migrate",
           "@php artisan key:generate"
       ]
@@ -34,7 +34,7 @@ This is a simple Composer script which listed basic commands that is used to set
         "install-project": [
           "npm install && npm run prod",
           "composer install",
-          "@php artisan key:generate",
+          "@php artisan storage:link",
           "@php artisan migrate",
           "@php artisan key:generate"
         ],
